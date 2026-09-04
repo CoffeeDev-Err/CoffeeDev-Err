@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Leo Gannad — Web and Mobile Developer</title>
+  <desc id="description">A dark gradient developer profile banner with orbit lines and a code symbol.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f" />
+      <stop offset="0.52" stop-color="#13233d" />
+      <stop offset="1" stop-color="#1b1540" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" />
+      <stop offset="0.52" stop-color="#818cf8" />
+      <stop offset="1" stop-color="#c084fc" />
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1" />
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#background)" />
+  <rect width="1200" height="320" rx="28" fill="url(#grid)" />
+  <circle cx="1030" cy="78" r="230" fill="url(#glow)" />
+  <circle cx="125" cy="280" r="190" fill="url(#glow)" opacity="0.55" />
+
+  <g fill="none" stroke="url(#accent)" stroke-opacity="0.42">
+    <ellipse cx="1010" cy="155" rx="150" ry="56" transform="rotate(-16 1010 155)" />
+    <ellipse cx="1010" cy="155" rx="116" ry="116" transform="rotate(28 1010 155)" />
+    <circle cx="1116" cy="104" r="6" fill="#c084fc" stroke="none" filter="url(#softGlow)" />
+    <circle cx="914" cy="205" r="5" fill="#22d3ee" stroke="none" filter="url(#softGlow)" />
+  </g>
+
+  <g transform="translate(108 76)">
+    <rect width="116" height="116" rx="30" fill="#0b1729" stroke="url(#accent)" stroke-width="2" />
+    <text x="58" y="75" text-anchor="middle" fill="url(#accent)" font-family="Consolas, 'Courier New', monospace" font-size="42" font-weight="700">&lt;/&gt;</text>
+  </g>
+
+  <text x="260" y="118" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="1">Leo Gannad</text>
+  <rect x="262" y="140" width="420" height="4" rx="2" fill="url(#accent)" />
+  <text x="262" y="187" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="500" letter-spacing="3">WEB &amp; MOBILE DEVELOPER</text>
+  <text x="262" y="229" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="19">Responsive interfaces • Reliable APIs • Useful digital products</text>
+
+  <circle cx="74" cy="48" r="4" fill="#22d3ee" opacity="0.8" />
+  <circle cx="760" cy="66" r="3" fill="#818cf8" opacity="0.8" />
+  <circle cx="820" cy="256" r="4" fill="#c084fc" opacity="0.72" />
+  <circle cx="1154" cy="272" r="3" fill="#22d3ee" opacity="0.75" />
+</svg>
